@@ -11,19 +11,19 @@ def fizzbuzz(n):
     - For multiples of three print "Fizz" instead of the number and for
     - For numbers which are multiples of both three and five print "FizzBuzz".
     """
-    if n < 1:
+     if n < 1:
         return
 
     tmp_result = []
-    for w in range(1, n + 1):
-        if (w % 3) == 0 and (w % 5) == 0:
+    for i in range(1, n + 1):
+        if (i % 3) == 0 and (i % 5) == 0:
             tmp_result.append("FizzBuzz")
-        elif (w % 3) == 0:
+        elif (i % 3) == 0:
             tmp_result.append("Fizz")
-        elif (w % 5) == 0:
+        elif (i % 5) == 0:
             tmp_result.append("Buzz")
         else:
-            tmp_result.append(str(w))
+            tmp_result.append(str(i))
     print(" ".join(tmp_result))
 
 
