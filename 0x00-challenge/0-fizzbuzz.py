@@ -11,7 +11,7 @@ def fizzbuzz(n):
     - For multiples of three print "Fizz" instead of the number and for
     - For numbers which are multiples of both three and five print "FizzBuzz".
     """
-     if n < 1:
+    if n < 1:
         return
 
     tmp_result = []
